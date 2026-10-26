@@ -1,0 +1,1852 @@
+{
+ "metadata": {
+  "datasetId": "pl-krajowe-wody-srodladowe",
+  "version": 1,
+  "schemaVersion": 1,
+  "generatedOn": "2026-10-26",
+  "verifiedOn": "2026-10-26",
+  "coverageFrom": "2023-07-27",
+  "coverageNote": "Przepisy krajowe dla powierzchniowych wód śródlądowych wg rozporządzenia Dz.U. 2023 poz. 1373 (stan sprawdzony 26.10.2026 w eli.gov.pl, nie znaleziono aktów zmieniających). Nie obejmuje regulaminów okręgów PZW ani innych gospodarzy wód, raków, wód morskich ani gatunków chronionych na podstawie ustawy o ochronie przyrody.",
+  "demo": false
+ },
+ "sources": [
+  {
+   "id": "DzU-2023-1373",
+   "title": "Rozporządzenie Ministra Rolnictwa i Rozwoju Wsi z dnia 12 lipca 2023 r. w sprawie szczegółowych warunków ochrony i połowu ryb w powierzchniowych wodach śródlądowych",
+   "reference": "Dz.U. 2023 poz. 1373",
+   "url": "https://eli.gov.pl/eli/DU/2023/1373/ogl",
+   "type": "LEGAL_ACT",
+   "publishedOn": "2023-07-19",
+   "verifiedOn": "2026-10-26",
+   "notes": "Wejście w życie 27.07.2023. Wymiar ochronny: połów dozwolony powyżej wymiaru (§ 6 ust. 2); długość od początku zamkniętego pyska do końca najdłuższego promienia płetwy ogonowej. § 7 ust. 2: okres skraca się o pierwszy/ostatni dzień, jeśli przypada na dzień ustawowo wolny od pracy (nie dotyczy jesiotra ostronosego)."
+  },
+  {
+   "id": "ustawa-dni-wolne",
+   "title": "Ustawa z dnia 18 stycznia 1951 r. o dniach wolnych od pracy",
+   "reference": "Dz.U. 1951 nr 4 poz. 28 z późn. zm.",
+   "url": null,
+   "type": "LEGAL_ACT",
+   "publishedOn": null,
+   "verifiedOn": "2026-10-26",
+   "notes": "Podstawa listy dni ustawowo wolnych (niedziele i święta; od 2025 r. także 24 grudnia) używanej przy § 7 ust. 2 rozporządzenia."
+  },
+  {
+   "id": "PZW-969-artykul",
+   "title": "PZW – Wymiary i okresy ochronne poszczególnych gatunków ryb (artykuł)",
+   "reference": "artykuł na stronie 969.pzw.pl",
+   "url": "https://969.pzw.pl/szczegoly-artykulu/wymiary-i-okresy-ochronne-poszczegolnych-gatunkow-ryb_JxSoP0LtQtcT711JFCPX",
+   "type": "SECONDARY",
+   "publishedOn": null,
+   "verifiedOn": null,
+   "notes": "Strona blokuje automatyczne pobieranie (robots.txt). Nie posłużyła jako podstawa żadnej reguły; reguły pochodzą wprost z rozporządzenia."
+  }
+ ],
+ "areas": [
+  {
+   "code": "WISLA_DO_SANU",
+   "name": "Wisła do ujścia Sanu, San",
+   "description": "Wisła i jej dopływy od źródeł do ujścia Sanu oraz San i jego dopływy",
+   "implies": [
+    "WISLA_POW_WLOCLAWKA"
+   ]
+  },
+  {
+   "code": "ODRA_DO_BYSTRZYCY",
+   "name": "Odra do ujścia Bystrzycy, Bystrzyca",
+   "description": "Odra i jej dopływy od granicy z Republiką Czeską do ujścia Bystrzycy oraz Bystrzyca i jej dopływy",
+   "implies": []
+  },
+  {
+   "code": "ODRA_WARTA_MORZE",
+   "name": "Odra od ujścia Warty do morza",
+   "description": "Odra od ujścia Warty do granicy z wodami morskimi",
+   "implies": []
+  },
+  {
+   "code": "WISLA_POW_WLOCLAWKA",
+   "name": "Wisła powyżej Włocławka",
+   "description": "Wisła i jej dopływy powyżej zapory we Włocławku",
+   "implies": []
+  },
+  {
+   "code": "WISLA_PON_WLOCLAWKA",
+   "name": "Wisła od Włocławka do ujścia",
+   "description": "Wisła od zapory we Włocławku do ujścia (koryto Wisły)",
+   "implies": []
+  }
+ ],
+ "species": [
+  {
+   "id": "bolen",
+   "namePl": "Boleń",
+   "nameLatin": "Leuciscus aspius",
+   "waterTypes": [
+    "RIVER",
+    "RESERVOIR",
+    "LAKE"
+   ],
+   "similar": [
+    "klen",
+    "jaz"
+   ],
+   "features": [
+    "Duży, szeroko otwierany pysk sięgający pod oko",
+    "Żuchwa wystaje, z guzkiem wchodzącym w wycięcie szczęki górnej",
+    "Ciało wydłużone, srebrzyste, ogon głęboko wcięty",
+    "Płetwy brzuszne i odbytowa szarawe do czerwonawych"
+   ],
+   "habitat": "Duże i średnie rzeki o wartkim nurcie, zbiorniki zaporowe; drapieżnik żerujący przy powierzchni.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "brzana",
+   "namePl": "Brzana",
+   "nameLatin": "Barbus barbus",
+   "waterTypes": [
+    "RIVER"
+   ],
+   "similar": [
+    "swinka",
+    "certa"
+   ],
+   "features": [
+    "Cztery wąsiki na górnej wardze",
+    "Pysk dolny, mięsiste wargi",
+    "Ciało wydłużone, walcowate, grzbiet oliwkowobrązowy",
+    "Długi, kostny pierwszy promień płetwy grzbietowej"
+   ],
+   "habitat": "Rzeki o żwirowym dnie i szybkim nurcie (krainy brzany i świnki).",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "certa",
+   "namePl": "Certa",
+   "nameLatin": "Vimba vimba",
+   "waterTypes": [
+    "RIVER",
+    "ESTUARY"
+   ],
+   "similar": [
+    "leszcz",
+    "krap",
+    "swinka"
+   ],
+   "features": [
+    "Wydłużony, wystający „nos” nad pyskiem dolnym",
+    "Ciemny grzbiet, srebrzyste boki",
+    "W okresie tarła ciemna z pomarańczowym brzuchem",
+    "Długa płetwa odbytowa"
+   ],
+   "habitat": "Dolne odcinki rzek; gatunek wędrowny, wpływa do rzek na tarło.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "glowacica",
+   "namePl": "Głowacica",
+   "nameLatin": "Hucho hucho",
+   "waterTypes": [
+    "RIVER"
+   ],
+   "similar": [
+    "troc",
+    "losos",
+    "pstrag_potokowy"
+   ],
+   "features": [
+    "Bardzo wydłużone, prawie walcowate ciało",
+    "Duża, spłaszczona głowa i szeroki pysk",
+    "Drobne czarne kropki (często w kształcie X) na grzbiecie i bokach",
+    "Płetwa tłuszczowa"
+   ],
+   "habitat": "Górskie i podgórskie rzeki zlewiska Dunaju (w Polsce głównie Dunajec, Poprad, San – z zarybień).",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "jaz",
+   "namePl": "Jaź",
+   "nameLatin": "Leuciscus idus",
+   "waterTypes": [
+    "RIVER",
+    "LAKE",
+    "RESERVOIR"
+   ],
+   "similar": [
+    "klen",
+    "ploc",
+    "jelec"
+   ],
+   "features": [
+    "Krawędź płetwy odbytowej prosta lub lekko wklęsła",
+    "Mała głowa i mały pysk w porównaniu z kleniem",
+    "Ciało wyższe, łuski drobniejsze niż u klenia (ok. 55–61 w linii bocznej)",
+    "Płetwy brzuszne i odbytowa czerwonawe"
+   ],
+   "habitat": "Nizinne rzeki o spokojnym nurcie, starorzecza, przepływowe jeziora.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "jelec",
+   "namePl": "Jelec",
+   "nameLatin": "Leuciscus leuciscus",
+   "waterTypes": [
+    "RIVER",
+    "STREAM"
+   ],
+   "similar": [
+    "klen",
+    "jaz",
+    "ukleja"
+   ],
+   "features": [
+    "Smukłe ciało, zwykle poniżej 25 cm",
+    "Krawędź płetwy odbytowej wklęsła",
+    "Mały, lekko dolny pysk",
+    "Płetwy szarożółte, oko żółtawe"
+   ],
+   "habitat": "Czyste rzeki i strumienie o umiarkowanym nurcie.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "klen",
+   "namePl": "Kleń",
+   "nameLatin": "Squalius cephalus",
+   "waterTypes": [
+    "RIVER",
+    "STREAM",
+    "RESERVOIR"
+   ],
+   "similar": [
+    "jaz",
+    "jelec",
+    "bolen"
+   ],
+   "features": [
+    "Krawędź płetwy odbytowej wyraźnie wypukła (zaokrąglona)",
+    "Duża, szeroka głowa i szeroki pysk",
+    "Duże łuski z ciemnym obrzeżeniem tworzącym siateczkę (ok. 42–49 w linii bocznej)",
+    "Płetwy brzuszne i odbytowa pomarańczowoczerwone"
+   ],
+   "habitat": "Rzeki od podgórskich po nizinne, także zbiorniki zaporowe.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "lin",
+   "namePl": "Lin",
+   "nameLatin": "Tinca tinca",
+   "waterTypes": [
+    "LAKE",
+    "POND",
+    "RIVER"
+   ],
+   "similar": [
+    "karas_srebrzysty"
+   ],
+   "features": [
+    "Dwa krótkie wąsiki w kącikach pyska",
+    "Oliwkowozielone lub złotawe ciało pokryte grubym śluzem",
+    "Bardzo drobne łuski",
+    "Zaokrąglone płetwy, czerwone oko"
+   ],
+   "habitat": "Zarośnięte jeziora, stawy, starorzecza o mulistym dnie.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "lipien",
+   "namePl": "Lipień",
+   "nameLatin": "Thymallus thymallus",
+   "waterTypes": [
+    "RIVER",
+    "STREAM"
+   ],
+   "similar": [
+    "pstrag_potokowy"
+   ],
+   "features": [
+    "Bardzo wysoka i długa płetwa grzbietowa („chorągiewka”)",
+    "Płetwa tłuszczowa",
+    "Mały pysk, szaro-srebrzyste ciało z ciemnymi plamkami z przodu",
+    "Charakterystyczny zapach tymianku"
+   ],
+   "habitat": "Czyste, chłodne rzeki podgórskie o żwirowym dnie (kraina lipienia).",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "losos",
+   "namePl": "Łosoś",
+   "nameLatin": "Salmo salar",
+   "waterTypes": [
+    "RIVER",
+    "ESTUARY"
+   ],
+   "similar": [
+    "troc",
+    "troc_jeziorowa"
+   ],
+   "features": [
+    "Szczęka sięga zwykle do tylnej krawędzi oka (u troci dalej)",
+    "Wąska nasada ogona, ogon wyraźnie wcięty",
+    "Kropki głównie powyżej linii bocznej",
+    "Gatunek wędrowny – odróżnienie od troci bywa trudne, w razie wątpliwości wypuść"
+   ],
+   "habitat": "Rzeki zlewiska Bałtyku podczas wędrówki tarłowej.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "mietus",
+   "namePl": "Miętus",
+   "nameLatin": "Lota lota",
+   "waterTypes": [
+    "RIVER",
+    "LAKE"
+   ],
+   "similar": [
+    "sum"
+   ],
+   "features": [
+    "Jeden wąsik na podbródku",
+    "Dwie płetwy grzbietowe – druga bardzo długa, podobnie odbytowa",
+    "Marmurkowe, oliwkowobrązowe ubarwienie",
+    "Drobne łuski, śliskie ciało"
+   ],
+   "habitat": "Chłodne rzeki i głębokie jeziora; aktywny zimą.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "pstrag_potokowy",
+   "namePl": "Pstrąg potokowy",
+   "nameLatin": "Salmo trutta m. fario",
+   "waterTypes": [
+    "STREAM",
+    "RIVER"
+   ],
+   "similar": [
+    "pstrag_teczowy",
+    "troc",
+    "lipien"
+   ],
+   "features": [
+    "Czerwone kropki otoczone jasną obwódką oraz czarne kropki",
+    "Płetwa tłuszczowa często pomarańczowa",
+    "Płetwa ogonowa zwykle bez kropek",
+    "Brak tęczowego pasa wzdłuż boku"
+   ],
+   "habitat": "Czyste, chłodne potoki i rzeki górskie oraz podgórskie, także nizinne strumienie.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "rozpior",
+   "namePl": "Rozpiór",
+   "nameLatin": "Ballerus ballerus",
+   "waterTypes": [
+    "RIVER",
+    "LAKE"
+   ],
+   "similar": [
+    "leszcz",
+    "krap"
+   ],
+   "features": [
+    "Pysk górny, skierowany ku górze",
+    "Ciało wysokie, ale smuklejsze niż u leszcza",
+    "Bardzo długa płetwa odbytowa",
+    "Srebrzyste boki, ciemne płetwy"
+   ],
+   "habitat": "Dolne odcinki dużych rzek, zalewy, jeziora przepływowe.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "sandacz",
+   "namePl": "Sandacz",
+   "nameLatin": "Sander lucioperca",
+   "waterTypes": [
+    "LAKE",
+    "RIVER",
+    "RESERVOIR"
+   ],
+   "similar": [
+    "okon"
+   ],
+   "features": [
+    "Dwie oddzielne płetwy grzbietowe, pierwsza kolczasta",
+    "Silne kły w pysku",
+    "Duże, szkliste („mleczne”) oczy",
+    "Wydłużone ciało z rozmytymi ciemnymi pręgami; płetwy bez czerwieni"
+   ],
+   "habitat": "Jeziora, zbiorniki zaporowe i większe rzeki o mętnej wodzie i twardym dnie.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "sieja",
+   "namePl": "Sieja",
+   "nameLatin": "Coregonus lavaretus",
+   "waterTypes": [
+    "LAKE"
+   ],
+   "similar": [
+    "sielawa"
+   ],
+   "features": [
+    "Srebrzyste ciało, płetwa tłuszczowa",
+    "Mały pysk końcowy lub lekko dolny (szczęka górna wystaje)",
+    "Większa od sielawy",
+    "Duże łuski"
+   ],
+   "habitat": "Głębokie, czyste, chłodne jeziora.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "sielawa",
+   "namePl": "Sielawa",
+   "nameLatin": "Coregonus albula",
+   "waterTypes": [
+    "LAKE"
+   ],
+   "similar": [
+    "sieja",
+    "ukleja"
+   ],
+   "features": [
+    "Pysk górny – żuchwa wystaje przed szczękę",
+    "Smukłe, srebrzyste ciało, płetwa tłuszczowa",
+    "Niewielka (zwykle 15–25 cm)",
+    "Ciemny grzbiet"
+   ],
+   "habitat": "Głębokie jeziora o chłodnej, natlenionej wodzie; ryba stadna toni wodnej.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "sum",
+   "namePl": "Sum",
+   "nameLatin": "Silurus glanis",
+   "waterTypes": [
+    "RIVER",
+    "LAKE",
+    "RESERVOIR"
+   ],
+   "similar": [
+    "mietus",
+    "sumik_karlowaty"
+   ],
+   "features": [
+    "Sześć wąsów: dwa bardzo długie na szczęce górnej, cztery krótkie na dolnej",
+    "Brak łusek",
+    "Bardzo długa płetwa odbytowa, mała płetwa grzbietowa",
+    "Brak płetwy tłuszczowej (w odróżnieniu od sumików)"
+   ],
+   "habitat": "Duże rzeki, jeziora i zbiorniki o mulistym dnie.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "szczupak",
+   "namePl": "Szczupak",
+   "nameLatin": "Esox lucius",
+   "waterTypes": [
+    "LAKE",
+    "RIVER",
+    "RESERVOIR",
+    "POND"
+   ],
+   "similar": [],
+   "features": [
+    "Wydłużony, spłaszczony „kaczy” pysk z licznymi zębami",
+    "Płetwa grzbietowa daleko z tyłu, nad płetwą odbytową",
+    "Zielonkawe ciało z jasnymi plamami lub pręgami",
+    "Wydłużone, torpedowate ciało"
+   ],
+   "habitat": "Jeziora, rzeki, starorzecza, zwłaszcza strefy roślinności.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "swinka",
+   "namePl": "Świnka",
+   "nameLatin": "Chondrostoma nasus",
+   "waterTypes": [
+    "RIVER"
+   ],
+   "similar": [
+    "brzana",
+    "certa"
+   ],
+   "features": [
+    "Pysk dolny, poprzeczny, z ostrą rogową krawędzią",
+    "Czarna otrzewna (wnętrze jamy brzusznej)",
+    "Brak wąsików",
+    "Płetwy czerwonawe"
+   ],
+   "habitat": "Rzeki podgórskie i nizinne o szybkim nurcie i kamienistym dnie.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "troc",
+   "namePl": "Troć wędrowna",
+   "nameLatin": "Salmo trutta m. trutta",
+   "waterTypes": [
+    "RIVER",
+    "ESTUARY"
+   ],
+   "similar": [
+    "losos",
+    "troc_jeziorowa",
+    "pstrag_potokowy"
+   ],
+   "features": [
+    "Srebrzysta, z czarnymi kropkami (często w kształcie X) także poniżej linii bocznej",
+    "Szczęka sięga za tylną krawędź oka",
+    "Gruba nasada ogona, ogon słabo wcięty",
+    "Płetwa tłuszczowa; odróżnienie od łososia bywa trudne"
+   ],
+   "habitat": "Rzeki zlewiska Bałtyku podczas wędrówki tarłowej, wody przybrzeżne.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "troc_jeziorowa",
+   "namePl": "Troć jeziorowa",
+   "nameLatin": "Salmo trutta m. lacustris",
+   "waterTypes": [
+    "LAKE"
+   ],
+   "similar": [
+    "troc",
+    "pstrag_potokowy"
+   ],
+   "features": [
+    "Forma jeziorowa troci – srebrzysta z czarnymi kropkami",
+    "Duże osobniki o masywnej budowie",
+    "Płetwa tłuszczowa",
+    "W Polsce m.in. jeziora Pomorza (np. Wdzydze)"
+   ],
+   "habitat": "Głębokie, chłodne jeziora z dopływami umożliwiającymi tarło.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "wegorz",
+   "namePl": "Węgorz",
+   "nameLatin": "Anguilla anguilla",
+   "waterTypes": [
+    "LAKE",
+    "RIVER",
+    "POND"
+   ],
+   "similar": [],
+   "features": [
+    "Ciało wężowate",
+    "Płetwy grzbietowa, ogonowa i odbytowa zrośnięte w ciągły fałd",
+    "Brak płetw brzusznych",
+    "Drobne łuski ukryte w skórze, gruby śluz"
+   ],
+   "habitat": "Jeziora, rzeki i stawy; gatunek katadromiczny, odbywa tarło w Morzu Sargassowym.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "wzdrega",
+   "namePl": "Wzdręga",
+   "nameLatin": "Scardinius erythrophthalmus",
+   "waterTypes": [
+    "LAKE",
+    "POND",
+    "RIVER"
+   ],
+   "similar": [
+    "ploc"
+   ],
+   "features": [
+    "Płetwa grzbietowa przesunięta do tyłu – za nasadą płetw brzusznych",
+    "Pysk skierowany ku górze",
+    "Płetwy jaskrawoczerwone",
+    "Złotawa tęczówka; ostry kil na brzuchu za płetwami brzusznymi"
+   ],
+   "habitat": "Zarośnięte jeziora, stawy i wolno płynące rzeki.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "jesiotr_ostronosy",
+   "namePl": "Jesiotr ostronosy",
+   "nameLatin": "Acipenser oxyrinchus",
+   "waterTypes": [
+    "RIVER",
+    "ESTUARY"
+   ],
+   "similar": [],
+   "features": [
+    "Pięć rzędów kostnych tarcz na ciele",
+    "Wydłużony, spiczasty ryj",
+    "Cztery wąsiki przed pyskiem",
+    "Asymetryczna płetwa ogonowa"
+   ],
+   "habitat": "Reintrodukowany w dorzeczach Odry i Wisły. Chroniony przez cały rok – zawsze wypuść.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "okon",
+   "namePl": "Okoń",
+   "nameLatin": "Perca fluviatilis",
+   "waterTypes": [
+    "LAKE",
+    "RIVER",
+    "POND",
+    "RESERVOIR"
+   ],
+   "similar": [
+    "sandacz"
+   ],
+   "features": [
+    "Wyraźne ciemne pręgi poprzeczne",
+    "Czarna plama na końcu pierwszej, kolczastej płetwy grzbietowej",
+    "Płetwy brzuszne i odbytowa czerwone",
+    "Brak kłów"
+   ],
+   "habitat": "Niemal wszystkie typy wód.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "ploc",
+   "namePl": "Płoć",
+   "nameLatin": "Rutilus rutilus",
+   "waterTypes": [
+    "LAKE",
+    "RIVER",
+    "POND",
+    "RESERVOIR"
+   ],
+   "similar": [
+    "wzdrega",
+    "jaz",
+    "krap"
+   ],
+   "features": [
+    "Czerwona tęczówka oka",
+    "Początek płetwy grzbietowej nad nasadą płetw brzusznych",
+    "Pysk końcowy",
+    "Płetwy pomarańczowe do czerwonych"
+   ],
+   "habitat": "Jeziora, rzeki, stawy – jeden z najpospolitszych gatunków.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "leszcz",
+   "namePl": "Leszcz",
+   "nameLatin": "Abramis brama",
+   "waterTypes": [
+    "LAKE",
+    "RIVER",
+    "RESERVOIR"
+   ],
+   "similar": [
+    "krap",
+    "rozpior",
+    "certa"
+   ],
+   "features": [
+    "Wysokie, mocno bocznie spłaszczone ciało",
+    "Płetwy szare do ciemnoszarych, bez czerwieni",
+    "Długa płetwa odbytowa; ok. 51–60 łusek w linii bocznej",
+    "Starsze osobniki brązowozłote, oko stosunkowo małe"
+   ],
+   "habitat": "Jeziora, zbiorniki zaporowe i nizinne rzeki o mulistym dnie.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "krap",
+   "namePl": "Krąp",
+   "nameLatin": "Blicca bjoerkna",
+   "waterTypes": [
+    "LAKE",
+    "RIVER",
+    "POND"
+   ],
+   "similar": [
+    "leszcz",
+    "ploc"
+   ],
+   "features": [
+    "Płetwy piersiowe i brzuszne u nasady czerwonawe",
+    "Duże oko w stosunku do głowy",
+    "Srebrzyste ciało; mniej łusek niż u leszcza (ok. 44–50)",
+    "Zwykle niewielki (do ok. 30 cm)"
+   ],
+   "habitat": "Jeziora i nizinne rzeki, często razem z leszczem.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "karp",
+   "namePl": "Karp",
+   "nameLatin": "Cyprinus carpio",
+   "waterTypes": [
+    "POND",
+    "LAKE",
+    "RIVER",
+    "RESERVOIR"
+   ],
+   "similar": [
+    "karas_srebrzysty"
+   ],
+   "features": [
+    "Cztery wąsiki (dwa dłuższe w kącikach pyska)",
+    "Długa płetwa grzbietowa z ząbkowanym promieniem twardym",
+    "Formy pełnołuskie, lustrzenie i golce",
+    "Mięsiste wargi, pysk wysuwany"
+   ],
+   "habitat": "Stawy, jeziora, zbiorniki, wolno płynące rzeki.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "karas_srebrzysty",
+   "namePl": "Karaś srebrzysty",
+   "nameLatin": "Carassius gibelio",
+   "waterTypes": [
+    "POND",
+    "LAKE",
+    "RIVER"
+   ],
+   "similar": [
+    "karp",
+    "lin"
+   ],
+   "features": [
+    "Brak wąsików (odróżnia od karpia)",
+    "Długa płetwa grzbietowa",
+    "Srebrzyste lub złotawe boki, duże łuski",
+    "Czarna otrzewna"
+   ],
+   "habitat": "Stawy, jeziora, starorzecza, kanały.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "amur",
+   "namePl": "Amur biały",
+   "nameLatin": "Ctenopharyngodon idella",
+   "waterTypes": [
+    "POND",
+    "LAKE",
+    "RESERVOIR"
+   ],
+   "similar": [
+    "klen"
+   ],
+   "features": [
+    "Wydłużone, walcowate ciało",
+    "Duże łuski z ciemnym obrzeżeniem",
+    "Szeroka głowa, oczy osadzone nisko",
+    "Roślinożerny"
+   ],
+   "habitat": "Gatunek introdukowany; stawy, zbiorniki, jeziora o bogatej roślinności.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "pstrag_teczowy",
+   "namePl": "Pstrąg tęczowy",
+   "nameLatin": "Oncorhynchus mykiss",
+   "waterTypes": [
+    "RIVER",
+    "STREAM",
+    "POND",
+    "RESERVOIR"
+   ],
+   "similar": [
+    "pstrag_potokowy",
+    "troc"
+   ],
+   "features": [
+    "Różowy lub tęczowy pas wzdłuż boku",
+    "Gęste czarne kropki na płetwie ogonowej i grzbietowej",
+    "Brak czerwonych kropek w jasnych obwódkach",
+    "Płetwa tłuszczowa"
+   ],
+   "habitat": "Gatunek introdukowany; łowiska specjalne, zbiorniki i rzeki zarybiane.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "ukleja",
+   "namePl": "Ukleja",
+   "nameLatin": "Alburnus alburnus",
+   "waterTypes": [
+    "LAKE",
+    "RIVER",
+    "RESERVOIR"
+   ],
+   "similar": [
+    "jelec",
+    "sielawa"
+   ],
+   "features": [
+    "Smukłe, bardzo srebrzyste ciało",
+    "Pysk górny",
+    "Łuski łatwo odpadają",
+    "Zwykle 10–15 cm"
+   ],
+   "habitat": "Przypowierzchniowa toń jezior i rzek.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "babka_bycza",
+   "namePl": "Babka bycza",
+   "nameLatin": "Neogobius melanostomus",
+   "waterTypes": [
+    "RIVER",
+    "ESTUARY",
+    "LAKE"
+   ],
+   "similar": [
+    "babka_szczupla",
+    "babka_lysa",
+    "babka_rurkonosa"
+   ],
+   "invasive": true,
+   "features": [
+    "Płetwy brzuszne zrośnięte w przyssawkę",
+    "Czarna plama na tylnej części pierwszej płetwy grzbietowej",
+    "Duża głowa, przydenny tryb życia",
+    "Gatunek inwazyjny – nie wypuszczaj"
+   ],
+   "habitat": "Gatunek inwazyjny; Zatoka Gdańska, Wisła, Odra i inne rzeki.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "babka_lysa",
+   "namePl": "Babka łysa",
+   "nameLatin": "Babka gymnotrachelus",
+   "waterTypes": [
+    "RIVER"
+   ],
+   "similar": [
+    "babka_bycza",
+    "babka_szczupla"
+   ],
+   "invasive": true,
+   "features": [
+    "Płetwy brzuszne zrośnięte w przyssawkę",
+    "Ciemne poprzeczne pasy na bokach",
+    "Kark bez łusek",
+    "Gatunek inwazyjny – nie wypuszczaj"
+   ],
+   "habitat": "Gatunek inwazyjny; dorzecze Wisły i Bugu.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "babka_rurkonosa",
+   "namePl": "Babka rurkonosa",
+   "nameLatin": "Proterorhinus semilunaris",
+   "waterTypes": [
+    "RIVER"
+   ],
+   "similar": [
+    "babka_bycza"
+   ],
+   "invasive": true,
+   "features": [
+    "Przednie otwory nosowe w postaci wyraźnych rurek sięgających nad wargę",
+    "Płetwy brzuszne zrośnięte w przyssawkę",
+    "Mała (do ok. 10 cm)",
+    "Gatunek inwazyjny – nie wypuszczaj"
+   ],
+   "habitat": "Gatunek inwazyjny; dorzecze Wisły.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "babka_szczupla",
+   "namePl": "Babka szczupła",
+   "nameLatin": "Neogobius fluviatilis",
+   "waterTypes": [
+    "RIVER"
+   ],
+   "similar": [
+    "babka_bycza",
+    "babka_lysa"
+   ],
+   "invasive": true,
+   "features": [
+    "Smukłe ciało, płetwy brzuszne zrośnięte w przyssawkę",
+    "Piaskowe ubarwienie z ciemnymi plamami",
+    "Brak czarnej plamy typowej dla babki byczej",
+    "Gatunek inwazyjny – nie wypuszczaj"
+   ],
+   "habitat": "Gatunek inwazyjny; dorzecze Wisły i Bugu.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "czebaczek_amurski",
+   "namePl": "Czebaczek amurski",
+   "nameLatin": "Pseudorasbora parva",
+   "waterTypes": [
+    "POND",
+    "LAKE",
+    "RIVER"
+   ],
+   "similar": [
+    "ukleja"
+   ],
+   "invasive": true,
+   "features": [
+    "Mała ryba (do ok. 10 cm)",
+    "Mały, górny pysk",
+    "Ciemny pas wzdłuż boku u młodych osobników",
+    "Gatunek inwazyjny – nie wypuszczaj"
+   ],
+   "habitat": "Gatunek inwazyjny; stawy i małe zbiorniki.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "sumik_czarny",
+   "namePl": "Sumik czarny",
+   "nameLatin": "Ameiurus melas",
+   "waterTypes": [
+    "POND",
+    "LAKE",
+    "RIVER"
+   ],
+   "similar": [
+    "sumik_karlowaty",
+    "sum"
+   ],
+   "invasive": true,
+   "features": [
+    "Osiem wąsików",
+    "Płetwa tłuszczowa",
+    "Ciemne, prawie czarne ubarwienie, ciemne błony płetw",
+    "Gatunek inwazyjny – nie wypuszczaj"
+   ],
+   "habitat": "Gatunek inwazyjny; stawy i jeziora.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "sumik_karlowaty",
+   "namePl": "Sumik karłowaty",
+   "nameLatin": "Ameiurus nebulosus",
+   "waterTypes": [
+    "POND",
+    "LAKE",
+    "RIVER"
+   ],
+   "similar": [
+    "sumik_czarny",
+    "sum"
+   ],
+   "invasive": true,
+   "features": [
+    "Osiem wąsików",
+    "Płetwa tłuszczowa",
+    "Brązowooliwkowe, marmurkowe ubarwienie",
+    "Gatunek inwazyjny – nie wypuszczaj"
+   ],
+   "habitat": "Gatunek inwazyjny; stawy, jeziora, starorzecza.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  },
+  {
+   "id": "trawianka",
+   "namePl": "Trawianka",
+   "nameLatin": "Perccottus glenii",
+   "waterTypes": [
+    "POND",
+    "LAKE"
+   ],
+   "similar": [
+    "okon"
+   ],
+   "invasive": true,
+   "features": [
+    "Krępe ciało, duża głowa i pysk",
+    "Dwie płetwy grzbietowe, płetwy zaokrąglone",
+    "Płetwy brzuszne oddzielne (nie przyssawka)",
+    "Gatunek inwazyjny – nie wypuszczaj"
+   ],
+   "habitat": "Gatunek inwazyjny; małe, zarośnięte zbiorniki.",
+   "descriptionSource": "Opis poglądowy cech rozpoznawczych – nie jest źródłem prawa.",
+   "imageAsset": null
+  }
+ ],
+ "rules": [
+  {
+   "id": "min-bolen",
+   "speciesId": "bolen",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 40.0
+  },
+  {
+   "id": "min-brzana",
+   "speciesId": "brzana",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 40.0
+  },
+  {
+   "id": "min-certa",
+   "speciesId": "certa",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 30.0
+  },
+  {
+   "id": "min-glowacica",
+   "speciesId": "glowacica",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 70.0
+  },
+  {
+   "id": "min-jaz",
+   "speciesId": "jaz",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 25.0
+  },
+  {
+   "id": "min-jelec",
+   "speciesId": "jelec",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 15.0
+  },
+  {
+   "id": "min-klen",
+   "speciesId": "klen",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 25.0
+  },
+  {
+   "id": "min-lin",
+   "speciesId": "lin",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 25.0
+  },
+  {
+   "id": "min-lipien",
+   "speciesId": "lipien",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 30.0
+  },
+  {
+   "id": "min-losos",
+   "speciesId": "losos",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 35.0
+  },
+  {
+   "id": "min-mietus-odra",
+   "speciesId": "mietus",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "areaCode": "ODRA_WARTA_MORZE",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 30.0
+  },
+  {
+   "id": "min-mietus-inne",
+   "speciesId": "mietus",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "areaCode": "OTHER",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 25.0
+  },
+  {
+   "id": "min-pstrag-wisla",
+   "speciesId": "pstrag_potokowy",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "areaCode": "WISLA_DO_SANU",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 25.0
+  },
+  {
+   "id": "min-pstrag-odra",
+   "speciesId": "pstrag_potokowy",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "areaCode": "ODRA_DO_BYSTRZYCY",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 25.0
+  },
+  {
+   "id": "min-pstrag-inne",
+   "speciesId": "pstrag_potokowy",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "areaCode": "OTHER",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 30.0
+  },
+  {
+   "id": "min-rozpior",
+   "speciesId": "rozpior",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 25.0
+  },
+  {
+   "id": "min-sandacz",
+   "speciesId": "sandacz",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 45.0
+  },
+  {
+   "id": "min-sieja",
+   "speciesId": "sieja",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 35.0
+  },
+  {
+   "id": "min-sielawa",
+   "speciesId": "sielawa",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 18.0
+  },
+  {
+   "id": "min-sum",
+   "speciesId": "sum",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 70.0
+  },
+  {
+   "id": "min-szczupak",
+   "speciesId": "szczupak",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 45.0
+  },
+  {
+   "id": "min-swinka",
+   "speciesId": "swinka",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 25.0
+  },
+  {
+   "id": "min-troc",
+   "speciesId": "troc",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 35.0
+  },
+  {
+   "id": "min-troc-jeziorowa",
+   "speciesId": "troc_jeziorowa",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 50.0
+  },
+  {
+   "id": "min-wegorz",
+   "speciesId": "wegorz",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 50.0
+  },
+  {
+   "id": "min-wzdrega",
+   "speciesId": "wzdrega",
+   "kind": "MIN_LENGTH",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 6 ust. 1",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "lengthCm": 15.0
+  },
+  {
+   "id": "os-brzana",
+   "speciesId": "brzana",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "seasonStart": "01-01",
+   "seasonEnd": "06-30",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-certa-wisla",
+   "speciesId": "certa",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "areaCode": "WISLA_PON_WLOCLAWKA",
+   "seasonStart": "09-01",
+   "seasonEnd": "11-30",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-certa-inne",
+   "speciesId": "certa",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "areaCode": "OTHER",
+   "seasonStart": "01-01",
+   "seasonEnd": "06-30",
+   "verifiedOn": "2026-10-26",
+   "note": "Wisła powyżej zapory we Włocławku i pozostałe wody",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-glowacica",
+   "speciesId": "glowacica",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "seasonStart": "03-01",
+   "seasonEnd": "05-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-jesiotr",
+   "speciesId": "jesiotr_ostronosy",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "seasonStart": "01-01",
+   "seasonEnd": "12-31",
+   "verifiedOn": "2026-10-26",
+   "note": "Ochrona przez cały rok – § 7 ust. 2 nie ma zastosowania",
+   "holidayShortening": false
+  },
+  {
+   "id": "os-lipien",
+   "speciesId": "lipien",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "seasonStart": "03-01",
+   "seasonEnd": "05-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-losos-wisla-gora",
+   "speciesId": "losos",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "areaCode": "WISLA_POW_WLOCLAWKA",
+   "seasonStart": "10-01",
+   "seasonEnd": "12-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "dt-losos-wisla-gora",
+   "speciesId": "losos",
+   "kind": "WEEKDAY_BAN",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1",
+   "verification": "VERIFIED",
+   "areaCode": "WISLA_POW_WLOCLAWKA",
+   "seasonStart": "01-01",
+   "seasonEnd": "09-30",
+   "verifiedOn": "2026-10-26",
+   "note": "Poza okresem ochronnym połów niedozwolony w czwartki–niedziele",
+   "holidayShortening": false,
+   "bannedDays": [
+    "THURSDAY",
+    "FRIDAY",
+    "SATURDAY",
+    "SUNDAY"
+   ]
+  },
+  {
+   "id": "os-losos-wisla-dol",
+   "speciesId": "losos",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "areaCode": "WISLA_PON_WLOCLAWKA",
+   "seasonStart": "12-01",
+   "seasonEnd": "02-29",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "dt-losos-wisla-dol",
+   "speciesId": "losos",
+   "kind": "WEEKDAY_BAN",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1",
+   "verification": "VERIFIED",
+   "areaCode": "WISLA_PON_WLOCLAWKA",
+   "seasonStart": "03-01",
+   "seasonEnd": "08-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": false,
+   "bannedDays": [
+    "FRIDAY",
+    "SATURDAY",
+    "SUNDAY"
+   ]
+  },
+  {
+   "id": "os-losos-inne",
+   "speciesId": "losos",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "areaCode": "OTHER",
+   "seasonStart": "10-01",
+   "seasonEnd": "12-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-mietus",
+   "speciesId": "mietus",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "areaCode": "OTHER",
+   "seasonStart": "12-01",
+   "seasonEnd": "02-29",
+   "verifiedOn": "2026-10-26",
+   "note": "Nie dotyczy Odry od ujścia Warty do granicy z wodami morskimi",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-pstrag-wisla",
+   "speciesId": "pstrag_potokowy",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "areaCode": "WISLA_DO_SANU",
+   "seasonStart": "09-01",
+   "seasonEnd": "01-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-pstrag-odra",
+   "speciesId": "pstrag_potokowy",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "areaCode": "ODRA_DO_BYSTRZYCY",
+   "seasonStart": "09-01",
+   "seasonEnd": "01-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-pstrag-inne",
+   "speciesId": "pstrag_potokowy",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "areaCode": "OTHER",
+   "seasonStart": "09-01",
+   "seasonEnd": "12-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-sandacz",
+   "speciesId": "sandacz",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "seasonStart": "03-01",
+   "seasonEnd": "05-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-sieja",
+   "speciesId": "sieja",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "seasonStart": "10-15",
+   "seasonEnd": "12-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-sielawa",
+   "speciesId": "sielawa",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "seasonStart": "10-15",
+   "seasonEnd": "12-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-sum",
+   "speciesId": "sum",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "seasonStart": "01-01",
+   "seasonEnd": "05-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-szczupak",
+   "speciesId": "szczupak",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "seasonStart": "01-01",
+   "seasonEnd": "04-30",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-swinka",
+   "speciesId": "swinka",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "seasonStart": "01-01",
+   "seasonEnd": "05-15",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-troc-wisla-gora",
+   "speciesId": "troc",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "areaCode": "WISLA_POW_WLOCLAWKA",
+   "seasonStart": "10-01",
+   "seasonEnd": "12-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "dt-troc-wisla-gora",
+   "speciesId": "troc",
+   "kind": "WEEKDAY_BAN",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1",
+   "verification": "VERIFIED",
+   "areaCode": "WISLA_POW_WLOCLAWKA",
+   "seasonStart": "01-01",
+   "seasonEnd": "09-30",
+   "verifiedOn": "2026-10-26",
+   "note": "Poza okresem ochronnym połów niedozwolony w czwartki–niedziele",
+   "holidayShortening": false,
+   "bannedDays": [
+    "THURSDAY",
+    "FRIDAY",
+    "SATURDAY",
+    "SUNDAY"
+   ]
+  },
+  {
+   "id": "os-troc-wisla-dol",
+   "speciesId": "troc",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "areaCode": "WISLA_PON_WLOCLAWKA",
+   "seasonStart": "12-01",
+   "seasonEnd": "02-29",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "dt-troc-wisla-dol",
+   "speciesId": "troc",
+   "kind": "WEEKDAY_BAN",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1",
+   "verification": "VERIFIED",
+   "areaCode": "WISLA_PON_WLOCLAWKA",
+   "seasonStart": "03-01",
+   "seasonEnd": "08-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": false,
+   "bannedDays": [
+    "FRIDAY",
+    "SATURDAY",
+    "SUNDAY"
+   ]
+  },
+  {
+   "id": "os-troc-inne",
+   "speciesId": "troc",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "areaCode": "OTHER",
+   "seasonStart": "10-01",
+   "seasonEnd": "12-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-troc-jeziorowa",
+   "speciesId": "troc_jeziorowa",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "seasonStart": "09-01",
+   "seasonEnd": "01-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "os-wegorz",
+   "speciesId": "wegorz",
+   "kind": "CLOSED_SEASON",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 7 ust. 1–2",
+   "verification": "VERIFIED",
+   "seasonStart": "12-01",
+   "seasonEnd": "03-31",
+   "verifiedOn": "2026-10-26",
+   "holidayShortening": true
+  },
+  {
+   "id": "lim-wegorz",
+   "speciesId": "wegorz",
+   "kind": "DAILY_LIMIT_COUNT",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 2 ust. 3",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26",
+   "note": "Limit dobowy przy amatorskim połowie wędką",
+   "dailyLimit": 2
+  },
+  {
+   "id": "inw-babka-bycza",
+   "speciesId": "babka_bycza",
+   "kind": "NO_RELEASE_INVASIVE",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 8",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26"
+  },
+  {
+   "id": "inw-babka-lysa",
+   "speciesId": "babka_lysa",
+   "kind": "NO_RELEASE_INVASIVE",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 8",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26"
+  },
+  {
+   "id": "inw-babka-rurkonosa",
+   "speciesId": "babka_rurkonosa",
+   "kind": "NO_RELEASE_INVASIVE",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 8",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26"
+  },
+  {
+   "id": "inw-babka-szczupla",
+   "speciesId": "babka_szczupla",
+   "kind": "NO_RELEASE_INVASIVE",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 8",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26"
+  },
+  {
+   "id": "inw-czebaczek",
+   "speciesId": "czebaczek_amurski",
+   "kind": "NO_RELEASE_INVASIVE",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 8",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26"
+  },
+  {
+   "id": "inw-sumik-czarny",
+   "speciesId": "sumik_czarny",
+   "kind": "NO_RELEASE_INVASIVE",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 8",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26"
+  },
+  {
+   "id": "inw-sumik-karlowaty",
+   "speciesId": "sumik_karlowaty",
+   "kind": "NO_RELEASE_INVASIVE",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 8",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26"
+  },
+  {
+   "id": "inw-trawianka",
+   "speciesId": "trawianka",
+   "kind": "NO_RELEASE_INVASIVE",
+   "scope": "NATIONAL",
+   "validFrom": "2023-07-27",
+   "sourceId": "DzU-2023-1373",
+   "sourceLocator": "§ 8",
+   "verification": "VERIFIED",
+   "verifiedOn": "2026-10-26"
+  }
+ ]
+}

@@ -1,0 +1,76 @@
+{
+  "metadata": {
+    "datasetId": "pl-krajowe-wody-srodladowe",
+    "version": 1,
+    "schemaVersion": 1,
+    "generatedOn": "2026-10-26",
+    "verifiedOn": "2026-10-26",
+    "coverageFrom": "2023-07-27",
+    "coverageNote": "Przepisy krajowe dla powierzchniowych wód śródlądowych wg rozporządzenia Dz.U. 2023 poz. 1373 (stan sprawdzony 26.10.2026 w eli.gov.pl, nie znaleziono aktów zmieniających). Nie obejmuje regulaminów okręgów PZW ani innych gospodarzy wód, raków, wód morskich ani gatunków chronionych na podstawie ustawy o ochronie przyrody.",
+    "demo": false
+  },
+  "sources": [
+    {
+      "id": "DzU-2023-1373",
+      "title": "Rozporządzenie Ministra Rolnictwa i Rozwoju Wsi z dnia 12 lipca 2023 r. w sprawie szczegółowych warunków ochrony i połowu ryb w powierzchniowych wodach śródlądowych",
+      "reference": "Dz.U. 2023 poz. 1373",
+      "url": "https://eli.gov.pl/eli/DU/2023/1373/ogl",
+      "type": "LEGAL_ACT",
+      "publishedOn": "2023-07-19",
+      "verifiedOn": "2026-10-26",
+      "notes": "Wejście w życie 27.07.2023. Wymiar ochronny: połów dozwolony powyżej wymiaru (§ 6 ust. 2); długość od początku zamkniętego pyska do końca najdłuższego promienia płetwy ogonowej. § 7 ust. 2: okres skraca się o pierwszy/ostatni dzień, jeśli przypada na dzień ustawowo wolny od pracy (nie dotyczy jesiotra ostronosego)."
+    },
+    {
+      "id": "ustawa-dni-wolne",
+      "title": "Ustawa z dnia 18 stycznia 1951 r. o dniach wolnych od pracy",
+      "reference": "Dz.U. 1951 nr 4 poz. 28 z późn. zm.",
+      "url": null,
+      "type": "LEGAL_ACT",
+      "publishedOn": null,
+      "verifiedOn": "2026-10-26",
+      "notes": "Podstawa listy dni ustawowo wolnych (niedziele i święta; od 2025 r. także 24 grudnia) używanej przy § 7 ust. 2 rozporządzenia."
+    },
+    {
+      "id": "PZW-969-artykul",
+      "title": "PZW – Wymiary i okresy ochronne poszczególnych gatunków ryb (artykuł)",
+      "reference": "artykuł na stronie 969.pzw.pl",
+      "url": "https://969.pzw.pl/szczegoly-artykulu/wymiary-i-okresy-ochronne-poszczegolnych-gatunkow-ryb_JxSoP0LtQtcT711JFCPX",
+      "type": "SECONDARY",
+      "publishedOn": null,
+      "verifiedOn": null,
+      "notes": "Strona blokuje automatyczne pobieranie (robots.txt). Nie posłużyła jako podstawa żadnej reguły; reguły pochodzą wprost z rozporządzenia."
+    }
+  ],
+  "areas": [
+    {
+      "code": "WISLA_DO_SANU",
+      "name": "Wisła do ujścia Sanu, San",
+      "description": "Wisła i jej dopływy od źródeł do ujścia Sanu oraz San i jego dopływy",
+      "implies": ["WISLA_POW_WLOCLAWKA"]
+    },
+    {
+      "code": "ODRA_DO_BYSTRZYCY",
+      "name": "Odra do ujścia Bystrzycy, Bystrzyca",
+      "description": "Odra i jej dopływy od granicy z Republiką Czeską do ujścia Bystrzycy oraz Bystrzyca i jej dopływy",
+      "implies": []
+    },
+    {
+      "code": "ODRA_WARTA_MORZE",
+      "name": "Odra od ujścia Warty do morza",
+      "description": "Odra od ujścia Warty do granicy z wodami morskimi",
+      "implies": []
+    },
+    {
+      "code": "WISLA_POW_WLOCLAWKA",
+      "name": "Wisła powyżej Włocławka",
+      "description": "Wisła i jej dopływy powyżej zapory we Włocławku",
+      "implies": []
+    },
+    {
+      "code": "WISLA_PON_WLOCLAWKA",
+      "name": "Wisła od Włocławka do ujścia",
+      "description": "Wisła od zapory we Włocławku do ujścia (koryto Wisły)",
+      "implies": []
+    }
+  ]
+}

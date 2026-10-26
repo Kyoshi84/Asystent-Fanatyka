@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp" android:height="108dp"
+    android:viewportWidth="108" android:viewportHeight="108">
+    <!-- Tarcza -->
+    <path android:fillColor="#FFF2E8C9"
+        android:pathData="M54,22 L80,31 L80,52 C80,69 69,80 54,86 C39,80 28,69 28,52 L28,31 Z" />
+    <!-- Ryba -->
+    <path android:fillColor="#FF0E4A5C"
+        android:pathData="M36,54 C42,45 54,43 63,48 L72,42 L70,54 L72,66 L63,60 C54,65 42,63 36,54 Z" />
+    <path android:fillColor="#FFF2E8C9"
+        android:pathData="M44,52 m-2,0 a2,2 0,1 0,4 0 a2,2 0,1 0,-4 0" />
+</vector>

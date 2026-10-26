@@ -1,0 +1,64 @@
+id;speciesId;kind;scope;areaCode;scopeRef;lengthCm;seasonStart;seasonEnd;holidayShortening;bannedDays;dailyLimit;validFrom;validTo;sourceId;sourceLocator;verification;verifiedOn;note
+min-bolen;bolen;MIN_LENGTH;NATIONAL;;;40;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-brzana;brzana;MIN_LENGTH;NATIONAL;;;40;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-certa;certa;MIN_LENGTH;NATIONAL;;;30;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-glowacica;glowacica;MIN_LENGTH;NATIONAL;;;70;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-jaz;jaz;MIN_LENGTH;NATIONAL;;;25;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-jelec;jelec;MIN_LENGTH;NATIONAL;;;15;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-klen;klen;MIN_LENGTH;NATIONAL;;;25;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-lin;lin;MIN_LENGTH;NATIONAL;;;25;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-lipien;lipien;MIN_LENGTH;NATIONAL;;;30;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-losos;losos;MIN_LENGTH;NATIONAL;;;35;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-mietus-odra;mietus;MIN_LENGTH;NATIONAL;ODRA_WARTA_MORZE;;30;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-mietus-inne;mietus;MIN_LENGTH;NATIONAL;OTHER;;25;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-pstrag-wisla;pstrag_potokowy;MIN_LENGTH;NATIONAL;WISLA_DO_SANU;;25;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-pstrag-odra;pstrag_potokowy;MIN_LENGTH;NATIONAL;ODRA_DO_BYSTRZYCY;;25;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-pstrag-inne;pstrag_potokowy;MIN_LENGTH;NATIONAL;OTHER;;30;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-rozpior;rozpior;MIN_LENGTH;NATIONAL;;;25;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-sandacz;sandacz;MIN_LENGTH;NATIONAL;;;45;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-sieja;sieja;MIN_LENGTH;NATIONAL;;;35;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-sielawa;sielawa;MIN_LENGTH;NATIONAL;;;18;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-sum;sum;MIN_LENGTH;NATIONAL;;;70;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-szczupak;szczupak;MIN_LENGTH;NATIONAL;;;45;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-swinka;swinka;MIN_LENGTH;NATIONAL;;;25;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-troc;troc;MIN_LENGTH;NATIONAL;;;35;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-troc-jeziorowa;troc_jeziorowa;MIN_LENGTH;NATIONAL;;;50;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-wegorz;wegorz;MIN_LENGTH;NATIONAL;;;50;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+min-wzdrega;wzdrega;MIN_LENGTH;NATIONAL;;;15;;;;;;2023-07-27;;DzU-2023-1373;§ 6 ust. 1;VERIFIED;2026-10-26;
+os-brzana;brzana;CLOSED_SEASON;NATIONAL;;;;01-01;06-30;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-certa-wisla;certa;CLOSED_SEASON;NATIONAL;WISLA_PON_WLOCLAWKA;;;09-01;11-30;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-certa-inne;certa;CLOSED_SEASON;NATIONAL;OTHER;;;01-01;06-30;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;Wisła powyżej zapory we Włocławku i pozostałe wody
+os-glowacica;glowacica;CLOSED_SEASON;NATIONAL;;;;03-01;05-31;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-jesiotr;jesiotr_ostronosy;CLOSED_SEASON;NATIONAL;;;;01-01;12-31;false;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;Ochrona przez cały rok – § 7 ust. 2 nie ma zastosowania
+os-lipien;lipien;CLOSED_SEASON;NATIONAL;;;;03-01;05-31;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-losos-wisla-gora;losos;CLOSED_SEASON;NATIONAL;WISLA_POW_WLOCLAWKA;;;10-01;12-31;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+dt-losos-wisla-gora;losos;WEEKDAY_BAN;NATIONAL;WISLA_POW_WLOCLAWKA;;;01-01;09-30;false;THURSDAY,FRIDAY,SATURDAY,SUNDAY;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1;VERIFIED;2026-10-26;Poza okresem ochronnym połów niedozwolony w czwartki–niedziele
+os-losos-wisla-dol;losos;CLOSED_SEASON;NATIONAL;WISLA_PON_WLOCLAWKA;;;12-01;02-29;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+dt-losos-wisla-dol;losos;WEEKDAY_BAN;NATIONAL;WISLA_PON_WLOCLAWKA;;;03-01;08-31;false;FRIDAY,SATURDAY,SUNDAY;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1;VERIFIED;2026-10-26;
+os-losos-inne;losos;CLOSED_SEASON;NATIONAL;OTHER;;;10-01;12-31;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-mietus;mietus;CLOSED_SEASON;NATIONAL;OTHER;;;12-01;02-29;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;Nie dotyczy Odry od ujścia Warty do granicy z wodami morskimi
+os-pstrag-wisla;pstrag_potokowy;CLOSED_SEASON;NATIONAL;WISLA_DO_SANU;;;09-01;01-31;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-pstrag-odra;pstrag_potokowy;CLOSED_SEASON;NATIONAL;ODRA_DO_BYSTRZYCY;;;09-01;01-31;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-pstrag-inne;pstrag_potokowy;CLOSED_SEASON;NATIONAL;OTHER;;;09-01;12-31;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-sandacz;sandacz;CLOSED_SEASON;NATIONAL;;;;03-01;05-31;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-sieja;sieja;CLOSED_SEASON;NATIONAL;;;;10-15;12-31;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-sielawa;sielawa;CLOSED_SEASON;NATIONAL;;;;10-15;12-31;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-sum;sum;CLOSED_SEASON;NATIONAL;;;;01-01;05-31;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-szczupak;szczupak;CLOSED_SEASON;NATIONAL;;;;01-01;04-30;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-swinka;swinka;CLOSED_SEASON;NATIONAL;;;;01-01;05-15;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-troc-wisla-gora;troc;CLOSED_SEASON;NATIONAL;WISLA_POW_WLOCLAWKA;;;10-01;12-31;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+dt-troc-wisla-gora;troc;WEEKDAY_BAN;NATIONAL;WISLA_POW_WLOCLAWKA;;;01-01;09-30;false;THURSDAY,FRIDAY,SATURDAY,SUNDAY;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1;VERIFIED;2026-10-26;Poza okresem ochronnym połów niedozwolony w czwartki–niedziele
+os-troc-wisla-dol;troc;CLOSED_SEASON;NATIONAL;WISLA_PON_WLOCLAWKA;;;12-01;02-29;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+dt-troc-wisla-dol;troc;WEEKDAY_BAN;NATIONAL;WISLA_PON_WLOCLAWKA;;;03-01;08-31;false;FRIDAY,SATURDAY,SUNDAY;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1;VERIFIED;2026-10-26;
+os-troc-inne;troc;CLOSED_SEASON;NATIONAL;OTHER;;;10-01;12-31;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-troc-jeziorowa;troc_jeziorowa;CLOSED_SEASON;NATIONAL;;;;09-01;01-31;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+os-wegorz;wegorz;CLOSED_SEASON;NATIONAL;;;;12-01;03-31;true;;;2023-07-27;;DzU-2023-1373;§ 7 ust. 1–2;VERIFIED;2026-10-26;
+lim-wegorz;wegorz;DAILY_LIMIT_COUNT;NATIONAL;;;;;;;;2;2023-07-27;;DzU-2023-1373;§ 2 ust. 3;VERIFIED;2026-10-26;Limit dobowy przy amatorskim połowie wędką
+inw-babka-bycza;babka_bycza;NO_RELEASE_INVASIVE;NATIONAL;;;;;;;;;2023-07-27;;DzU-2023-1373;§ 8;VERIFIED;2026-10-26;
+inw-babka-lysa;babka_lysa;NO_RELEASE_INVASIVE;NATIONAL;;;;;;;;;2023-07-27;;DzU-2023-1373;§ 8;VERIFIED;2026-10-26;
+inw-babka-rurkonosa;babka_rurkonosa;NO_RELEASE_INVASIVE;NATIONAL;;;;;;;;;2023-07-27;;DzU-2023-1373;§ 8;VERIFIED;2026-10-26;
+inw-babka-szczupla;babka_szczupla;NO_RELEASE_INVASIVE;NATIONAL;;;;;;;;;2023-07-27;;DzU-2023-1373;§ 8;VERIFIED;2026-10-26;
+inw-czebaczek;czebaczek_amurski;NO_RELEASE_INVASIVE;NATIONAL;;;;;;;;;2023-07-27;;DzU-2023-1373;§ 8;VERIFIED;2026-10-26;
+inw-sumik-czarny;sumik_czarny;NO_RELEASE_INVASIVE;NATIONAL;;;;;;;;;2023-07-27;;DzU-2023-1373;§ 8;VERIFIED;2026-10-26;
+inw-sumik-karlowaty;sumik_karlowaty;NO_RELEASE_INVASIVE;NATIONAL;;;;;;;;;2023-07-27;;DzU-2023-1373;§ 8;VERIFIED;2026-10-26;
+inw-trawianka;trawianka;NO_RELEASE_INVASIVE;NATIONAL;;;;;;;;;2023-07-27;;DzU-2023-1373;§ 8;VERIFIED;2026-10-26;
